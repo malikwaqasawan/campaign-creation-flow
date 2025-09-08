@@ -1,0 +1,137 @@
+{
+  "campaignTypes": [
+    {
+      "id": "seeding",
+      "title": "Seeding/Gifting",
+      "description": "Send free products to creators in exchange for organic content.",
+      "icon": "Gift"
+    },
+    {
+      "id": "paid",
+      "title": "Paid Promotion",
+      "description": "Pay creators for guaranteed content and deliverables.",
+      "icon": "DollarSign"
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "description": "For all other types of creator collaboration campaigns.",
+      "icon": "Megaphone"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Choose Campaign Type",
+      "description": "Select the best one that fits your goal."
+    },
+    {
+      "id": 2,
+      "title": "Add Campaign Information",
+      "description": "Upload a file or paste a link — we'll pull the product and campaign details for you."
+    },
+    {
+      "id": 3,
+      "title": "Review Campaign Information",
+      "description": "We've pulled product info and campaign rules from your files. Review and edit if needed."
+    },
+    {
+      "id": 4,
+      "title": "Add Integrations",
+      "description": "Connect your tools to save time and reduce manual work."
+    },
+    {
+      "id": 5,
+      "title": "Email Setup",
+      "description": "Configure your email provider, accounts, and recipients to launch your campaign."
+    }
+  ],
+  "defaultCampaignRules": [
+    {
+      "id": 1,
+      "text": "This campaign is strictly for gifting; no monetary compensation will be provided. If asked about payment, inform the influencer that this opportunity is for gifting only and paid promotions are not being considered at this time."
+    },
+    {
+      "id": 2,
+      "text": "Only one New Yeti Cooler will be sent per influencer."
+    },
+    {
+      "id": 3,
+      "text": "If the influencer provides their full postal address, do not repeat the address back in your response."
+    },
+    {
+      "id": 4,
+      "text": "Confirm the influencer's interest before requesting their shipping details."
+    }
+  ],
+  "defaultTrackingRules": [
+    {
+      "id": 1,
+      "text": "In \"Email\", verify the influencer's email from the reply is on the row; add if missing, if asked about payment, respond gifting only."
+    },
+    {
+      "id": 2,
+      "text": "In \"Name\", confirm the influencer's name from the reply; update if blank or mismatched."
+    },
+    {
+      "id": 3,
+      "text": "In \"Channel Name\", fill in the creator's channel name if provided in the reply."
+    }
+  ],
+  "defaultProductInfo": {
+    "name": "YETI GlacierX 55",
+    "description": "Experience unmatched cooling performance with the YETI Tundra 45 Cooler. Built with military-grade construction and up to 3 inches of PermaFrost™ insulation, this premium cooler keeps ice frozen for days, not hours. The rotomolded construction creates an incredibly durable exterior that can withstand drops, falls, and whatever adventure throws at it.\n\nKey Features:\n• Keeps ice up to 4-6 days in normal conditions\n• Bear-proof certified and virtually indestructible\n• Holds up to 54 cans with recommended 2:1 ice-to-"
+  },
+  "defaultEmailContent": {
+    "subject": "Hey {name}, a gift from Yeti just for you",
+    "body": "Hi {name},\n\nI've been really enjoying your content on {channel_name} and your honest gear reviews. Your authentic approach and the way you"
+  },
+  "integrations": [
+    {
+      "id": "google-sheets",
+      "name": "Google Sheet",
+      "description": "Automatically track campaign results in your Google Sheet",
+      "icon": "google-sheets",
+      "enabled": true,
+      "placeholder": "https://docs.google.com/spreadsheets/d/...",
+      "tip": "Tip: Set your sheet permissions to 'Anyone with the link can edit'"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "description": "Coming soon",
+      "icon": "shopify",
+      "enabled": false
+    }
+  ],
+  "emailProviders": [
+    {
+      "id": "cheerful",
+      "name": "Cheerful (Recommended)",
+      "description": "Our email system with automatic optimization"
+    },
+    {
+      "id": "external",
+      "name": "Other external provider",
+      "description": "providers like Instantly, Mixmax, etc. Cheerful will handle replies only"
+    }
+  ],
+  "defaultConnectedEmails": [
+    {
+      "id": "1",
+      "address": "sarah.marketing@brightwave.co"
+    },
+    {
+      "id": "2",
+      "address": "john.sales@nexustech.com"
+    }
+  ],
+  "existingProducts": [
+    { "id": "1", "name": "Yeti Cooler", "created": "8/25/25" },
+    { "id": "2", "name": "Yeti Cooler", "created": "8/25/25" },
+    { "id": "3", "name": "Yeti Cooler", "created": "8/25/25" },
+    { "id": "4", "name": "Yeti Cooler", "created": "8/25/25" },
+    { "id": "5", "name": "Yeti Cooler", "created": "8/25/25" },
+    { "id": "6", "name": "Yeti Cooler", "created": "8/25/25" }
+  ]
+}
